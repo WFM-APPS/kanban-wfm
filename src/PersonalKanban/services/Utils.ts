@@ -63,15 +63,15 @@ export const getInitialState = () => {
   return [
     {
       id: getId(),
-      title: "Todo",
-      color: "Orange",
+      title: "Em Andamento",
+      color: "Purple",
       records: [
         {
           id: getId(),
-          color: "Yellow",
-          title: "Clear Board",
+          color: "White",
+          title: "Teste 1",
           description:
-            "Make a fresh start by erasing this board. Click delete button on main toolbar.",
+            "Testando card 1",
           createdAt: getCreatedAt(),
         },
       ],
@@ -79,14 +79,14 @@ export const getInitialState = () => {
     },
     {
       id: getId(),
-      title: "In-Progress",
+      title: "Pendente",
       color: "Red",
       records: [
         {
           id: getId(),
-          color: "Purple",
-          title: "Give ratings",
-          description: "Rate and Star Personal Kanban",
+          color: "White",
+          title: "Teste 2",
+          description: "Testando card 2",
           createdAt: getCreatedAt(),
         },
       ],
@@ -94,14 +94,29 @@ export const getInitialState = () => {
     },
     {
       id: getId(),
-      title: "Completed",
+      title: "Pendente",
+      color: "Yellow",
+      records: [
+        {
+          id: getId(),
+          color: "White",
+          title: "Teste 3",
+          description: "Testando card 3",
+          createdAt: getCreatedAt(),
+        },
+      ],
+      createdAt: getCreatedAt(),
+    },
+        {
+      id: getId(),
+      title: "Descartado",
       color: "Green",
       records: [
         {
           id: getId(),
-          color: "Indigo",
-          title: "Be Awesome",
-          description: "Rock the world with your creativity !",
+          color: "White",
+          title: "Teste 4",
+          description: "Testando card 4",
           createdAt: getCreatedAt(),
         },
       ],
