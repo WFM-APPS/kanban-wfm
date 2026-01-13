@@ -20,7 +20,7 @@ import {
 
 import StorageService from "PersonalKanban/services/StorageService";
 
-declare module "@material-ui/core/styles/createMuiTheme" {
+declare module "@material-ui/core/styles" {
   interface Theme {
     custom?: any;
   }
