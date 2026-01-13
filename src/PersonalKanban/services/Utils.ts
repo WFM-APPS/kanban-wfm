@@ -15,7 +15,7 @@ export const reorder = (list: any[], startIndex: number, endIndex: number) => {
 };
 
 export const getCreatedAt = () => {
-  return `${moment().format("DD-MM-YYYY")} ${moment().format("h:mm:ss a")}`;
+  return `${moment().format("DD-MM-YYYY")}`;
 };
 
 export const reorderCards = ({
