@@ -79,7 +79,7 @@ export const getInitialState = () => {
     },
     {
       id: getId(),
-      title: "Pendente",
+      title: "Finalizado",
       color: "Red",
       records: [
         {
